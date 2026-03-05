@@ -1,7 +1,7 @@
 //
 Hesap Makinesi
 
-Klave tuşları ile de çalışıyor
+Klavye tuşları ile de çalışıyor
 
 //       //     //
 Html  -  CSS -  JavaScript
