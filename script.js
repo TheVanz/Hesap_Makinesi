@@ -16,7 +16,7 @@ function hesapla() {
     display.value = "Hata";
   }
 }
-// window ekrana basılan her şeyi dinler
+// window ekrana basılan her şeyi dinler ve belirli tuşlara göre işlemler yapar. Bu sayede klavyeden de hesap makinesini kullanabiliriz.
 window.addEventListener("keydown", (e) => {
   // 1. Sayıları Kontrol Et (0-9)
   if (e.key >= "0" && e.key <= "9") {
@@ -40,7 +40,7 @@ window.addEventListener("keydown", (e) => {
   }
 
   // 5. Temizleme Tuşu (Escape - Ekranı sıfırlar)
-  if (e.key === "Escape") {
+  if (e.key === "Delete" || e.key === "Escape") {
     ekraniTemizle();
   }
 
