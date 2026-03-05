@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <input id="display" readonly />
+      <div id="butonlar">
+        <button onclick="tusBasildi(`+`)" class="hesap-tuslari">+</button>
+        <button onclick="tusBasildi(`7`)">7</button>
+        <button onclick="tusBasildi(`8`)">8</button>
+        <button onclick="tusBasildi(`9`)">9</button>
+        <button onclick="tusBasildi(`-`)" class="hesap-tuslari">-</button>
+        <button onclick="tusBasildi(`4`)">4</button>
+        <button onclick="tusBasildi(`5`)">5</button>
+        <button onclick="tusBasildi(`6`)">6</button>
+        <button onclick="tusBasildi(`*`)" class="hesap-tuslari">*</button>
+        <button onclick="tusBasildi(`1`)">1</button>
+        <button onclick="tusBasildi(`2`)">2</button>
+        <button onclick="tusBasildi(`3`)">3</button>
+        <button onclick="tusBasildi(`/`)" class="hesap-tuslari">/</button>
+        <button onclick="tusBasildi(`0`)">0</button>
+        <button onclick="tusBasildi(`.`)">.</button>
+        <button onclick="hesapla()">=</button>
+        <button onclick="ekraniTemizle()" class="hesap-tuslari">C</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
