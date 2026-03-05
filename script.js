@@ -23,7 +23,7 @@ window.addEventListener("keydown", (e) => {
     tusBasildi(e.key);
   }
 
-  // 2. Operatörleri Kontrol Et
+  // 2. Operatörleri Kontrol Et Array olarak operatörleri tanımladık ve includes ile kontrol ediyoruz.
   if (["+", "-", "*", "/"].includes(e.key)) {
     tusBasildi(e.key);
   }
