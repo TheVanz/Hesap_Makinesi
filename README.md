@@ -1,2 +1,3 @@
 //
-Hesap Makinesi'nin ilk hali 22
+Hesap Makinesi
+Klave tuşları ile de çalışıyor
